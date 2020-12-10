@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/exception/")
 public class TestController {
-
+    //test11
     @RequestMapping("/serverError")
     public String serverError() {
         double d = 100 / 0;
